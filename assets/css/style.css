@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+main {
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+h1 {
+    border-bottom: 1px solid rgb(58, 153, 200);  
+    border-top: 1px solid rgb(58, 153, 200);  
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  
+section {
+    background-color: grey;
+    height: 22rem;
+    width: 35rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 1rem;
+}
+#inputMonedaChilena {
+    width: 25rem;
+}
+#selectMoneda {
+    width: 25rem;
+}
+#button {
+    width: 25rem;
+    color: white;
+    font-size: 1.5rem;
+}
